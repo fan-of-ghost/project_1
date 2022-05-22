@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, pink, lightblue);
+}
+
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.header {
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 10px solid black;
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+    box-sizing: border-box;
+}
+
+.logo-area {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+
+.login-link {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    left: 60%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    line-height: 70px;
+}
+
+
+.login-link a {
+    text-decoration: none;
+}
+
+
+.logo {
+    margin-left: 30%;
+    height: 90%;
+    width: 40%;
+    background-image: url('../images/logo.png');
+    background-size: cover;
+}

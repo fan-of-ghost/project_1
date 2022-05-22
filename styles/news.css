@@ -1,0 +1,152 @@
+.leaders {
+    position: fixed;
+    border: 10px outset whitesmoke;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    width: 30%;
+    height: 70%;
+    top: 20%;
+    left: 10%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, pink, white);
+}
+
+.leaders:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
+.link {
+    left: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    height: 20%;
+    width: 70%;
+    box-sizing: border-box;
+    /* border: 10px solid red; */
+}
+
+.link-to-go {
+    display: inline-block;
+    height: 100%;
+    width: 63%;
+    vertical-align: top;
+    font-size: 25px;
+    line-height: 60px;
+    color: white;
+}
+
+.link-to-go a {
+    text-decoration: none;
+}
+
+.subscribe a {
+    text-decoration: none;
+}
+
+.avatar {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    background-size: cover;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+.floppa .avatar {
+    background-image: url('../images/floppa/avatar.jpg');
+}
+
+.chmonya .avatar {
+    background-image: url('../images/chmonya/avatar.jpg');
+}
+
+.popcat .avatar {
+    background-image: url('../images/popcat/avatar.jpeg');
+}
+
+.subscribe button {
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    top: 25%;
+    border-radius: 10%;
+    color: white;
+    background-color: skyblue;
+    border: 2px solid rgb(162, 135, 235);
+    font-size: 20px;
+}
+
+
+.container {
+    border: 10px outset pink;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: whitesmoke;
+    position: relative;
+    box-sizing: border-box;
+    width: 40%;
+    height: 70%;
+    top: 20%;
+    left: 50%;
+}
+
+.container:hover {
+    border: 10px outset white;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/floppa/1.jpg');
+    background-size: cover;
+}
+
+.photo:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    zoom: 1;
+}
+
+.text {
+    margin-top: 30%;
+    color: slateblue;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 50%;
+    top: 20%;
+    font-family: cursive;
+}
+
+
+.container button {
+    position: relative;
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+    color: white;
+    border: none;
+    font-size: 30px;
+    top: -35%;
+    background-color: wheat;
+}
+
+.right {
+    left: 79%;
+}
+
+.left {
+    left: 1%;
+}

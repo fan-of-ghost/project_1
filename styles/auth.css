@@ -1,0 +1,45 @@
+.window {
+    position: relative;
+    border: 10px outset whitesmoke;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    width: 30%;
+    left: 35%;
+    height: 70%;
+    top: 20%;
+    box-sizing: border-box;
+    background: white;
+    /* background: linear-gradient(to right, slateblue, pink); */
+}
+
+.window:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
+.block {
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 10%;
+    box-sizing: border-box;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 18px;
+    left: 20%;
+}
+
+.greeting {
+    left: 10%;
+    line-height: 40px;
+    width: 80%;
+    font-size: 30px;
+}
+
+.block a {
+    font-size: 20px;
+}
+
+
