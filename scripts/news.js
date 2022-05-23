@@ -6,7 +6,7 @@ const info = [
         photo: 'url("./images/floppa/1.jpg")'
     },
     {
-        text: 'Am I small russian cat? WTF?<br />@chmonya',
+        text: 'Am I small russian cat?<br />@chmonya',
         photo: 'url("./images/chmonya/1.jpg")'
     },
     {
